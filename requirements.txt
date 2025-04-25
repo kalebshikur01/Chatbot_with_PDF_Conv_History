@@ -1,0 +1,15 @@
+ipykernel
+langchain-openai
+langchain
+langchain_community
+python-dotenv
+langchain_core
+langchain-groq
+streamlit
+faiss-cpu
+langchain_chroma
+pypdf
+langchain-text-splitters
+chromadb
+langchain_huggingface
+streamlit
