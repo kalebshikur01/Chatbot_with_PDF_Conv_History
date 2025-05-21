@@ -51,7 +51,7 @@ def create_vector_embedding():
         st.session_state.final_documents=st.session_state.text_splitter.split_documents(st.session_state.docs[:50])
         st.session_state.vectors=FAISS.from_documents(st.session_state.final_documents, st.session_state.embeddings)
 
-
+st.title("RAG Application With Chat History")
 # display text input requesting for query
 user_prompt=st.text_input("Enter your query from the research papaer")
 #add button to create/ add embedding to the session.
